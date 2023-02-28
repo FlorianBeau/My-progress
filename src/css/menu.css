@@ -8,3 +8,13 @@ ul {
   flex-direction: row;
   justify-content: space-between;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.activeLink {
+  font-weight: bold;
+  color: #07c5fa;
+}

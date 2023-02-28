@@ -18,6 +18,15 @@ export default function TechnoAdd() {
             <option value="other">Other</option>
           </select>
           <br />
+          <label htmlFor="techno-description">Description:</label>
+          <br />
+          <textarea
+            name="techno-description"
+            id="techno-description"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <br />
           <input type="submit" value="Add Techno" />
         </form>
       </div>
